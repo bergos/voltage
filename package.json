@@ -1,0 +1,37 @@
+{
+  "name": "voltage",
+  "version": "0.1.0",
+  "description": "HTML5 multimeter",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "install": "npm run build",
+    "lint": "standard",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bergos/voltage.git"
+  },
+  "keywords": [],
+  "author": "Thomas Bergwinkl <bergi@axolotlfarm.org> (https://www.bergnet.org/people/bergi/card#me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bergos/voltage/issues"
+  },
+  "homepage": "https://github.com/bergos/voltage",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "browserify": "^13.1.0",
+    "crab-event": "^0.1.0",
+    "express": "^4.14.0",
+    "highcharts": "^5.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "jquery": "^3.1.1",
+    "lodash": "^4.16.4",
+    "shelljs": "^0.7.4",
+    "ut61e": "^0.1.0",
+    "websocket-stream": "^3.3.0"
+  },
+  "devDependencies": {}
+}
